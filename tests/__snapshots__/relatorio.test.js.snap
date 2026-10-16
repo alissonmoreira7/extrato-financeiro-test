@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Pipeline completo (integração) relatório completo bate com o snapshot 1`] = `
+{
+  "alertas": [
+    {
+      "categoria": "Alimentação",
+      "nivel": "ATENÇÃO",
+      "percentual": 91,
+    },
+    {
+      "categoria": "Transporte",
+      "nivel": "ATENÇÃO",
+      "percentual": 82,
+    },
+    {
+      "categoria": "Lazer",
+      "nivel": "ESTOURADO",
+      "percentual": 111,
+    },
+  ],
+  "duplicatasRemovidas": 1,
+  "gastosPorCategoria": {
+    "Alimentação": 543.25,
+    "Educação": 27.9,
+    "Lazer": 77.8,
+    "Outros": 99.99,
+    "Saúde": 62.4,
+    "Transporte": 205.3,
+  },
+  "maioresGastos": [
+    "MERCADO BOM PREÇO",
+    "ATACADAO",
+    "POSTO SHELL",
+  ],
+  "saldo": 933.36,
+  "totalTransacoes": 13,
+}
+`;
