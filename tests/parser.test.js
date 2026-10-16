@@ -3,7 +3,7 @@ const { converterValor, converterData, limparDescricao, lerExtrato } = require('
 describe('converterValor', () => {
 
   test.each([
-    ['R$ 1.234,56', 1234.56],
+    [null , 1234.56],
     ['-45,90', -45.9],
     ['R$1.000.000,00', 1000000],
     ['1234.56', 1234.56],
